@@ -102,6 +102,16 @@ footer {
   color: #ffffff;
 }
 
+footer img {
+  width: 30px;
+  height: inherit;
+}
+
+footer small {
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
 /* no bullet points and the backgroundcolor to cover entire navbar */
 .nav_links {
   list-style: none;
@@ -139,57 +149,4 @@ header img {
   width: 30px;
   height: inherit;
   display: inline-block;
-}
-
-/* Hero Section */
-.banner .container {
-  width: 100%;
-  height: 31vmax;
-  overflow: auto;
-}
-
-/* every even banner will have a background and different text to provide intuitive design */
-.banner:nth-child(even) {
-  background: #1c2237;
-  color: #ffffff;
-}
-
-.container .hero-content {
-  height: auto;
-  align-items: center;
-  width: 40%;
-  padding: 110px;
-  display: inline-block;
-}
-
-.container .hero-content img {
-  max-height: 400px;
-  max-width: 400px;
-  display: flex;
-}
-
-.banner:nth-child(odd) .hero-content {
-  margin-left: 45%;
-}
-
-.hero-content span {
-  color: #f00946;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.hero-content h2 {
-  margin-top: 5px;
-  margin-bottom: 20px;
-  font-size: 50px;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
-.hero-content p {
-  margin-bottom: auto;
-  font-size: 18px;
-  letter-spacing: 1px;
 }
