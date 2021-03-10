@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Video.css'
+
 function Video () {
     return (
     <div id="video-chat-container" className="Dish">

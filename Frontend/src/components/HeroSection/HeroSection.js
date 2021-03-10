@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link}from "react-router-dom";
 import './HeroSection.css'
 import img1 from '../Images/Collab.png';
 import img2 from '../Images/Webinar.png';
@@ -23,9 +24,9 @@ function HeroSection () {
                                 Keep collaborating with team chat.
                             </p> 
                             <br/>
-                            <form>
-                                <button formAction="gateway.html">Join</button>
-                            </form>
+                            <Link to="/join">
+                                <button>Join</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
